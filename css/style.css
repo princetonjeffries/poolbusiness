@@ -20,9 +20,6 @@ h2{
     overflow: hidden;
     border-bottom:1px #4A6D80 solid;
   }
-#darkmode{
-    float:right;
-}
 .navbar li {
     float: left;
 }
@@ -48,6 +45,7 @@ h2{
     margin-right:auto;
     width: 50%;
     padding-bottom: 4em;
+    margin-top: 15em;
 }
 .footer {
     position: absolute;
@@ -63,7 +61,7 @@ h2{
     margin-top: -16rem;
     left: 50%;
     transform: translate(-50%,0);
-    position: absolute; 
+    position: relative; 
     z-index: 1;
 }
 #homeimg{
@@ -71,7 +69,7 @@ h2{
     transform: translate(-50%,0);
     position: absolute; 
     z-index: 1; 
-    
+    height: auto;  
 }
 @font-face{
     font-family:quicksand;
